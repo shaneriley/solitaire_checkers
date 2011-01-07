@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Solitaire Checkers</title>
+  <meta charset="UTF-8" />
+  <script src="sol.pack.js"></script>
+  <style>
+    body {
+      width: 420px;
+      margin: 0;
+      font: normal 14px/130% Helvetica, Arial, sans-serif; }
+    a { color: #0066cc; }
+    p { text-align: center; }
+    p + p {
+      padding: 0 20px;
+      text-align: justify; }
+    canvas { background: transparent url("images/board.png") 0 0 no-repeat; }
+  </style>
+</head>
+<body>
+  <canvas width="460" height="460">
+    <p>Your browser does not support canvas. You could always try Safari or Chrome.</p>
+  </canvas>
+  <p><input type="submit" value="Reset" /></p>
+  <p>Click a marble to select it. To move, jump the selected marble over an adjacent marble into an empty space. To win, clear all marbles from the game and have your last marble appear in the center of the board.</p>
+  <p><a href="https://gist.github.com/752106" target="_blank">Solution</a></p>
+  <script src="http://www.google-analytics.com/urchin.js"></script>
+  <script>
+  _uacct = "UA-1803573-1";
+  //urchinTracker();
+  </script>
+</body>
+</html>
